@@ -12,7 +12,13 @@ function checkOddOrEven(number) {
     }
 }
 console.timeEnd('jy.ryu.itpro');
+
+// 함수를 넣은 경우
+// module.exports !== exports === {}
+
+// 한가지만 exports 하고 싶으면 module.exports 사용하면 된다.
 module.exports = checkOddOrEven;
+
 // module.exports = {
 //     checkOddOrEven,
 //     odd,
