@@ -13,7 +13,11 @@ function checkOddOrEven(number) {
     }
 }
 
-module.exports = checkOddOrEven;
+exports.odd = odd;
+exports.even = even;
+
+// module.exports = checkOddOrEven;
+
 // module.exports = {
 //     checkOddOrEven,
 //     odd,
